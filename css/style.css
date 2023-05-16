@@ -482,8 +482,7 @@ body {
 
 .actors-list {
   line-height: 1.5;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   color: #000000;
 }
 
@@ -661,6 +660,10 @@ body {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+  }
+
+  .content {
+    padding-bottom: 0;
   }
 
   .content-media {
